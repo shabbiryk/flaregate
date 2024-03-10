@@ -1,3 +1,8 @@
+
+Flaregate will be the first-of-its-kind fully decentralized cross-chain bridge from Flare to all EVM chains for any fungible asset. The MVP built at ETHOxford from scratch, demonstrates potential in a bidirectional bridge between Ethereum Sepolia and Flare Coston for ETH to Flare provided tokens (USDT-0 - USDT-9) especially created for the hackathon. We will show end-to-end transfer of the token  (bidirectionally) at 1:1 pricing.
+
+
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.

@@ -31,7 +31,7 @@ const NavBar = ({ onAccountChange }) => {
     <>
       <nav className="bg-black p-4 flex justify-between">
         <div className="flex items-center">
-          <span className="text-white text-xl font-bold">FlareBridge</span>
+          <span className="text-white text-xl font-bold">FlareGate</span>
         </div>
         <div className="flex items-center">
           {account ? (

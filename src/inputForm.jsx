@@ -26,7 +26,7 @@ const BridgeInputPage = ({ connectedAccount }) => {
     const tokenContract = new ethers.Contract(
       "0x7977957C48849e1f3A4Dc16bEEE9b9097a1d2271",
       ["function approve(address spender, uint256 amount)"],
-      signer,
+      signer
     );
     try {
       const spender = "0x2f48135AdF44c99999cA0d6d21bD49466AaD74Fd";
@@ -45,7 +45,7 @@ const BridgeInputPage = ({ connectedAccount }) => {
       [
         "function requestRelay(address _relayTarget, bytes memory _additionalCalldata, address _sourceToken, uint256 _amount)",
       ],
-      signer,
+      signer
     );
     const tokenContractAddress = "0x7977957C48849e1f3A4Dc16bEEE9b9097a1d2271";
     try {
@@ -54,7 +54,7 @@ const BridgeInputPage = ({ connectedAccount }) => {
         "0xE3224C9A2A1F5CcEdad97e07C426D7eE3F6332E2",
         "0x",
         tokenContractAddress,
-        20,
+        20
       );
 
       // Wait for the transaction to be mined
@@ -66,7 +66,7 @@ const BridgeInputPage = ({ connectedAccount }) => {
     }
   };
   const handleStartButtonClick = async () => {
-    // await approveFirst()
+    await approveFirst();
     await callRelayer();
     console.log(connectedAccount);
   };

@@ -1,6 +1,6 @@
 
 **FlareGate**
-Flaregate will be the first-of-its-kind fully decentralized cross-chain bridge from Flare to all EVM chains for any fungible asset. 
+Flaregate will be the first-of-its-kind fully decentralized, bi-directional cross-chain bridge from Flare to all EVM chains for any fungible asset. 
 
 The MVP built at **ETHOxford** from scratch demonstrates potential in a bidirectional bridge between Ethereum Sepolia and Flare Coston from Flare-provided tokens (USDT-0 - USDT-9) on Sepolia to Flare-provided tokens (USDT-0 - USDT-9) on Coston especially created for this hack. 
 

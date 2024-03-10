@@ -38,9 +38,9 @@ const BridgeInputPage = ({ connectedAccount }) => {
     }));
   };
   const inputSanitation = () => {
-    // first make clear that sepolia and costcon is approved
-    if (destinationChain !== "sepolia" || destinationChain !== "costcon") {
-      alert(`Please make sure destination is  either sepolia or costcon`);
+    // first make clear that sepolia and coston is approved
+    if (destinationChain !== "sepolia" || destinationChain !== "coston") {
+      alert(`Please make sure destination is  either sepolia or coston`);
     }
   };
   const getSpenderContractAddress = () => {
@@ -130,7 +130,7 @@ const BridgeInputPage = ({ connectedAccount }) => {
           <option value="" disabled>
             Select a destination chain
           </option>
-          <option value="costcon">Costcon</option>
+          <option value="coston">coston</option>
           <option value="sepolia">Sepolia</option>
         </select>
 
